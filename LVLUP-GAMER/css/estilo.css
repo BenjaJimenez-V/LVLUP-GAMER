@@ -1,3 +1,14 @@
+/* RECORDAR LO SIGUIENTE 
+    
+    body {bla bla bla }  -> APLICA A TODO EL BODY
+    .body {bla bla bla } -> APLICA A TODOS LOS BODY QUE TENGAN ESA CLASE
+    #body {bla bla bla } -> APLICA A TODOS LOS BODY QUE TENGAN ESA ID
+    en caso de que sea un body, podria utilizarse con otros elementos
+    y el selector universal se refiere a 
+    * {bla bla bla} -> APLICA A TODOS LOS ELEMENTOS DE LA PAGINA 
+*/
+
+
 * {
     padding: 0;
     margin: 0;
@@ -10,10 +21,10 @@
 }
 
 body {
+    background-image: url(../img/How\ can\ agencies\ embrace\ complexity_.jpeg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-   
     background-color: black;
     font-family: 'calibri';
 }
